@@ -1,0 +1,39 @@
+body{
+    margin: 0 ;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+.form{
+    background-color: #85FFBD;
+background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+    font-family: cursive;
+    font-size: 18px;
+    width: 400px;
+    height: 200px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid;
+    transition: box-shadow 0.3s ease; 
+}
+.form:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .5); /* Adds a shadow */
+}
+
+.text{
+    resize: none;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 18px;
+}
+.counting{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
